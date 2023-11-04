@@ -112,7 +112,8 @@
               <div class="col-lg-2 col-md-6 footer-links">
                 <h4>Instagram Desa_karangasemtimur</h4>
                 <ul>
-                  <li v-for="item in list_menu"><i class="bx bx-chevron-right"></i> <a v-bind:href="item.link ">{{ https://instagram.com/desa_karangasemtimur?igshid=YzAwZjE1ZTI0Zg== }}</a></li>
+                  <li v-for="item in list_menu"><i class="bx bx-chevron-right"></i> <a v-bind:href="item.link ">{{
+                      item.menu }}</a></li>
                 </ul>
               </div>
 
@@ -131,11 +132,11 @@
 
           </div>
           <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="twitter"><i
+            <a href="https://instagram.com/desa_karangasemtimur?igshid=YzAwZjE1ZTI0Zg==" class="twitter"><i
                 class="bx bxl-twitter"></i></a>
-            <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="facebook"><i
+            <a href="https://instagram.com/desa_karangasemtimur?igshid=YzAwZjE1ZTI0Zg==" class="facebook"><i
                 class="bx bxl-facebook"></i></a>
-            <a href="https://instagram.com/pemdes.babakan?igshid=MzRlODBiNWFlZA==" class="instagram"><i
+            <a href="https://instagram.com/desa_karangasemtimur?igshid=YzAwZjE1ZTI0Zg==" class="instagram"><i
                 class="bx bxl-instagram"></i></a>
           </div>
         </div>
@@ -183,7 +184,7 @@
 <script src="assets/js/leaflet.ajax.js"></script>
 <script>
 
-  var mymap = L.map('map').setView([-6.4964377,106.8778261], 15);
+  var mymap = L.map('map').setView([-6.4964377, 106.8778261], 15);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
